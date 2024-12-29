@@ -7,6 +7,7 @@ import Academic from "./pages/Academic"
 import Admissions from "./pages/Admissions"
 import ContactUs from "./pages/ContactUs"
 import StudentLife from "./pages/StudentLife"
+import ErrorPage from "./pages/ErrorPage"
 
 const App = () => {
   return (
@@ -18,6 +19,7 @@ const App = () => {
         <Route path="/admissions" element={<Admissions />} />
         <Route path="/contact" element={<ContactUs />} />
         <Route path="/students" element={<StudentLife />} />
+        <Route path="*" element={<ErrorPage />} />
       </Routes>
     </BrowserRouter>
   )
