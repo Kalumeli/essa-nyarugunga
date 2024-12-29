@@ -9,9 +9,25 @@
 </defs>
 </svg>
 
+![Logo-lg](https://github.com/user-attachments/assets/87e1e68f-09fd-449b-9705-f7dfc4164bcd)
+
 This is the official website of ESSA Nyarugunga developed by students in **Software Development** from Level 4 to Level 5 showcasing their immersive skills in **React** and **Tailwind css**.
 
 Even though the project is not yet completed, but soon the website will be fully completed and hosted online allowing everyone to visit or register their children to the school of excellence in education
+
+## Technology behind this project
+- Frontend > React js
+- Design > Tailwind CSS
+- Backend > AppWrite
+- Database Type > Non-relational
+- Bundler > Vite
+- Host > Netlify(currently)
+
+## Estimated remaining time
+We predict that in 1 month from now (**29/12/2024**) it will be fully functional. DEADLINE: **_29/01/2025_**
+
+## Official Link
+![essanyarugunga.netlify.app](https://essanyarugunga.netlify.app) (currently)
 
 ## Screenshots
 Here's our work so far
