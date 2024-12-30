@@ -49,27 +49,27 @@ const Admissions = () => {
           {/* Custom table school fees */}
           <div className="p-[60px] bg-white rounded-xl shadow-[6px_6px_0px_2px_rgba(30,30,30,1.00)] border-2 border-neutral-800">
 
-            <div class="overflow-hidden rounded-lg">
+            <div className="overflow-hidden rounded-lg">
 
-              <div class="grid grid-cols-5 bg-primary-95 text-gray-700 text-sm font-semibold mb-5 rounded-xl border-2 border-black overflow-hidden">
-                <div class="px-6 py-4 border-r-2 border-black">Program</div>
-                <div class="px-6 py-4 border-r-2 border-black">Age Group</div>
-                <div class="px-6 py-4 border-r-2 border-black">Annual Tuition</div>
-                <div class="px-6 py-4 border-r-2 border-black">Registration Fee</div>
-                <div class="px-6 py-4 border-black">Activity Fee</div>
+              <div className="grid grid-cols-5 mb-5 overflow-hidden text-sm font-semibold text-gray-700 border-2 border-black bg-primary-95 rounded-xl">
+                <div className="px-6 py-4 border-r-2 border-black">Program</div>
+                <div className="px-6 py-4 border-r-2 border-black">Age Group</div>
+                <div className="px-6 py-4 border-r-2 border-black">Annual Tuition</div>
+                <div className="px-6 py-4 border-r-2 border-black">Registration Fee</div>
+                <div className="px-6 py-4 border-black">Activity Fee</div>
               </div>
 
 
-              <div class="divide-y divide-gray-300 border-2 border-black rounded-xl overflow-hidden">
+              <div className="overflow-hidden border-2 border-black divide-y divide-gray-300 rounded-xl">
 
                 {/* Add Trades here */}
 
-                <div class="grid grid-cols-5 bg-white text-gray-700 border-b-2 border-black">
-                  <div class="px-6 py-4 border-r-2 border-black">Nursery</div>
-                  <div class="px-6 py-4 border-r-2 border-black">2 - 3 Years</div>
-                  <div class="px-6 py-4 border-r-2 border-black">$1,686</div>
-                  <div class="px-6 py-4 border-r-2 border-black">$12</div>
-                  <div class="px-6 py-4 border-r-2 border-black">$12</div>
+                <div className="grid grid-cols-5 text-gray-700 bg-white border-b-2 border-black">
+                  <div className="px-6 py-4 border-r-2 border-black">Nursery</div>
+                  <div className="px-6 py-4 border-r-2 border-black">2 - 3 Years</div>
+                  <div className="px-6 py-4 border-r-2 border-black">$1,686</div>
+                  <div className="px-6 py-4 border-r-2 border-black">$12</div>
+                  <div className="px-6 py-4 border-r-2 border-black">$12</div>
                 </div>
 
               </div>
@@ -81,24 +81,24 @@ const Admissions = () => {
           {/* Additional services */}
           <div className="p-[60px] mt-[60px] bg-white rounded-xl shadow-[6px_6px_0px_2px_rgba(30,30,30,1.00)] border-2 border-neutral-800">
 
-            <div class="overflow-hidden rounded-lg">
+            <div className="overflow-hidden rounded-lg">
 
-              <div class="grid grid-cols-1 bg-primary-95 text-gray-700 text-sm font-semibold mb-5 rounded-xl border-2 border-black overflow-hidden">
-                <div class="px-6 py-4 border-r-2 border-black text-[#191919] text-2xl font-bold ">Addition Services</div>
+              <div className="grid grid-cols-1 mb-5 overflow-hidden text-sm font-semibold text-gray-700 border-2 border-black bg-primary-95 rounded-xl">
+                <div className="px-6 py-4 border-r-2 border-black text-[#191919] text-2xl font-bold ">Addition Services</div>
               </div>
 
 
-              <div class="divide-y divide-gray-300 border-2 border-black rounded-xl overflow-hidden">
+              <div className="overflow-hidden border-2 border-black divide-y divide-gray-300 rounded-xl">
 
                 {/* More services here */}
 
-                <div class="grid grid-cols-2 bg-white text-gray-700 border-b-2 border-black">
-                  <div class="px-6 py-4 border-r-2 border-black">Nursery</div>
-                  <div class="px-6 py-4 border-r-2 border-black">2 - 3 Years</div>
+                <div className="grid grid-cols-2 text-gray-700 bg-white border-b-2 border-black">
+                  <div className="px-6 py-4 border-r-2 border-black">Nursery</div>
+                  <div className="px-6 py-4 border-r-2 border-black">2 - 3 Years</div>
                 </div>
-                <div class="grid grid-cols-2 bg-white text-gray-700 border-b-2 border-black">
-                  <div class="px-6 py-4 border-r-2 border-black">Nursery</div>
-                  <div class="px-6 py-4 border-r-2 border-black">2 - 3 Years</div>
+                <div className="grid grid-cols-2 text-gray-700 bg-white border-b-2 border-black">
+                  <div className="px-6 py-4 border-r-2 border-black">Nursery</div>
+                  <div className="px-6 py-4 border-r-2 border-black">2 - 3 Years</div>
                 </div>
 
               </div>
