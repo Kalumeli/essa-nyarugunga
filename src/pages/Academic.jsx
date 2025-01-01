@@ -45,7 +45,7 @@ function Academic() {
             Our kinder garden school provides a nurturing and stimulating environment, fostering a love for learning that lasts a lifetime. Join us as we embark on an exciting educational journey together!
           </SectionHeader>
 
-          <div className="grid w-full grid-rows-1 lg:git-cols-3 gap-6 p-8 gap-y-[70px]">
+          <div className="grid w-full grid-rows-1 lg:grid-cols-3 gap-6 p-8 gap-y-[70px]">
             <Card category="about" icon={Book} heading="Thematic Learning" details="Our curriculum is centered around engaging themes that capture children's imaginations. Each theme integrates multiple subjects, making learning enjoyable and relevant." />
             <Card category="about" icon={Graph} heading="STEAM Education" details="We offer innovative STEAM (Science, Technology, Engineering, Arts, and Mathematics) programs that promote hands-on exploration, critical thinking, and problem-solving skills." />
             <Card category="about" icon={Puzzle} heading="Language Immersion" details="Through language immersion programs, children have the opportunity to learn a second language, enhancing cognitive development and global awareness." />
