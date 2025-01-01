@@ -12,7 +12,7 @@ import LinkedIn from "/assets/icons/linkedin.svg"
 export default function Footer() {
   return (
     <footer className="mt-[200px] w-full px-[50px] py-[40px] mb-10 bg-white rounded-xl shadow-[6px_6px_0px_2px_rgba(30,30,30,1.00)] border-2 border-neutral-800 flex-col justify-start items-start gap-[50px] flex overflow-hidden">
-      <div className="flex w-full gap-3">
+      <div className="flex flex-col w-full gap-10 text-center lg:text-start lg:flex-row">
 
         {/* LEFT SIDE✅ */}
         <div className="flex flex-col gap-[50px] ">
@@ -50,7 +50,7 @@ export default function Footer() {
         </div>
 
         {/* Easy Links */}
-        <div className="flex justify-between w-full">
+        <div className="grid w-full grid-cols-2 lg:grid-cols-4 gap-y-5">
 
           {/* col 1 */}
           <div className="flex flex-col gap-[12px]">
@@ -62,7 +62,17 @@ export default function Footer() {
             </ul>
           </div>
 
+
           {/* col 2 */}
+          <div className="flex flex-col gap-[12px]">
+            <h3 className="text-xl font-bold text-neutral-800">Academics</h3>
+            <ul className="flex flex-col gap-[10px]">
+              <li><Link to="/academics#" className="footer-link text-[#333333] text-md font-medium leading-[30px]">Special Features</Link></li>
+              <li><Link to="/academics#" className="footer-link text-[#333333] text-md font-medium leading-[30px]">Gallery</Link></li>
+            </ul>
+          </div>
+
+          {/* col 3 */}
           <div className="flex flex-col gap-[12px]">
             <h3 className="text-xl font-bold text-neutral-800">About</h3>
             <ul className="flex flex-col gap-[10px]">
@@ -71,15 +81,6 @@ export default function Footer() {
               <li><Link to="/about#" className="footer-link text-[#333333] text-md font-medium leading-[30px]">Awards and Recognition</Link></li>
               <li><Link to="/about#" className="footer-link text-[#333333] text-md font-medium leading-[30px]">History</Link></li>
               <li><Link to="/about#" className="footer-link text-[#333333] text-md font-medium leading-[30px]">Teachers</Link></li>
-            </ul>
-          </div>
-
-          {/* col 3 */}
-          <div className="flex flex-col gap-[12px]">
-            <h3 className="text-xl font-bold text-neutral-800">Academics</h3>
-            <ul className="flex flex-col gap-[10px]">
-              <li><Link to="/academics#" className="footer-link text-[#333333] text-md font-medium leading-[30px]">Special Features</Link></li>
-              <li><Link to="/academics#" className="footer-link text-[#333333] text-md font-medium leading-[30px]">Gallery</Link></li>
             </ul>
           </div>
 
@@ -92,6 +93,8 @@ export default function Footer() {
             </ul>
           </div>
 
+
+
         </div>
 
       </div>
@@ -100,11 +103,11 @@ export default function Footer() {
       <div className="w-full flex flex-col gap-[24px]">
         <hr className="h-[1px] w-full rounded-full border border-neutral-500" />
 
-        <div className="flex flex-row items-center justify-between">
+        <div className="flex flex-col items-center justify-between gap-5 text-center lg:flex-row">
 
           {/* 💌💘💝💖💗💓 Huge thanks💌💘💝💖💗💓 */}
           <div>
-            <span>Huge thanks to <Link to="https://figma.com/@praha" target="_blank" className="font-semibold text-primary-65">Pragadesh</Link> for the inspiration💖</span>
+            <span>Huge thanks to <Link to="https://figma.com/@praha" target="_blank" className="font-semibold text-primary-65">Pragadesh</Link> for the inspiration</span>
           </div>
           {/* 💌💘💝💖💗💓 Huge thanks💌💘💝💖💗💓 */}
 
@@ -124,7 +127,7 @@ export default function Footer() {
           </div>
         </div>
 
-        <hr className="h-[1px] w-full rounded-full border border-neutral-300" />
+        <hr className="h-[1px] w-full rounded-full border mt-3 border-neutral-300" />
 
         {/* Copyright✅ */}
         <span className="text-center text-[#646467] text-lg font-medium leading-[27px]">Copyright © 2024 <Link to="" className="font-bold hover:text-primary-70">ESSA Nyarugunga</Link>. All rights reserved.</span>

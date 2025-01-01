@@ -13,6 +13,7 @@ body {
 }
 
 .active:not(#logo) {
+  color: #ffbe99 !important;
   @apply bg-primary-80;
 }
 .active div {

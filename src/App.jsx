@@ -9,6 +9,7 @@ import ContactUs from "./pages/ContactUs"
 import StudentLife from "./pages/StudentLife"
 import ErrorPage from "./pages/ErrorPage"
 
+
 const App = () => {
   return (
     <BrowserRouter>
