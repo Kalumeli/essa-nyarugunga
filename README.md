@@ -1,3 +1,5 @@
+# completion level: 73%
+
 ![logo](https://github.com/user-attachments/assets/dbc20f1a-a75d-477f-bc6d-93be755d7122)
 # ESSA NYARUGUNGA
 
