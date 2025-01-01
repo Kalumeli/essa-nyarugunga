@@ -45,7 +45,7 @@ function Academic() {
             Our kinder garden school provides a nurturing and stimulating environment, fostering a love for learning that lasts a lifetime. Join us as we embark on an exciting educational journey together!
           </SectionHeader>
 
-          <div className="grid w-full grid-cols-3 gap-6 p-8 gap-y-[70px]">
+          <div className="grid w-full grid-rows-1 lg:git-cols-3 gap-6 p-8 gap-y-[70px]">
             <Card category="about" icon={Book} heading="Thematic Learning" details="Our curriculum is centered around engaging themes that capture children's imaginations. Each theme integrates multiple subjects, making learning enjoyable and relevant." />
             <Card category="about" icon={Graph} heading="STEAM Education" details="We offer innovative STEAM (Science, Technology, Engineering, Arts, and Mathematics) programs that promote hands-on exploration, critical thinking, and problem-solving skills." />
             <Card category="about" icon={Puzzle} heading="Language Immersion" details="Through language immersion programs, children have the opportunity to learn a second language, enhancing cognitive development and global awareness." />
@@ -61,7 +61,7 @@ function Academic() {
             At Little Learners Academy, we strive to cultivate a love for learning and equip children with essential skills for their future success. Our academic programs cover a wide range of subjects, allowing students to develop a strong foundation and discover their interests. Some key areas of learning include
           </SectionHeader>
 
-          <div className="grid w-full grid-cols-3 gap-6 p-8 gap-y-[70px]">
+          <div className="grid w-full grid-rows-1 lg:grid-cols-3 gap-6 p-8 gap-y-[70px]">
             <AcademicCard image={Test} title="Software Development" details="Reading, writing, storytelling, and communication in codes." />
             <AcademicCard image={Test} title="Tourism" details="Reading, writing, storytelling, and communication in with nature." />
             <AcademicCard image={Test} title="Food & Beverage" details="Reading, writing, storytelling, and communication with the kitchen." />
@@ -72,7 +72,7 @@ function Academic() {
         </section>
 
         {/* gallery✅ */}
-        <section>
+        <section className="hidden lg:block">
           <SectionHeader semiHeading="Our Gallery" Heading="Our Rooms Gallery">
             Step into our Gallery and immerse yourself in a visual journey of cherished moments and unforgettable experiences at our kindergarten school.
           </SectionHeader>

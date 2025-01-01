@@ -28,7 +28,7 @@ const Admissions = () => {
             Embark on a remarkable educational journey with us! Our Admission and Enrollment process is the gateway to providing your child with an exceptional learning experience at our kindergarten school
           </SectionHeader>
 
-          <div className="grid w-full grid-cols-3 gap-6 p-8 gap-y-[70px]">
+          <div className="grid w-full grid-rows-1 lg:grid-cols-3 gap-6 p-8 gap-y-[70px]">
             <AdmissionCard step="01" title="Inquiry" details="Submit an inquiry form through our website or contact our admissions office to express your interest in Little Learners Academy." />
             <AdmissionCard step="02" title="School Tour" details="Schedule a personalized school tour to explore our campus, meet our staff, and gain insights into our nurturing learning environment." />
             <AdmissionCard step="03" title="Application Form" details="Complete the application form and provide the required documents, including your child's birth certificate, medical records, and any previous academic records (if applicable)." />
@@ -47,7 +47,7 @@ const Admissions = () => {
           </SectionHeader>
 
           {/* Custom table school fees */}
-          <div className="p-[60px] bg-white rounded-xl shadow-[6px_6px_0px_2px_rgba(30,30,30,1.00)] border-2 border-neutral-800">
+          <div className="hidden lg:block p-[60px] bg-white rounded-xl shadow-[6px_6px_0px_2px_rgba(30,30,30,1.00)] border-2 border-neutral-800">
 
             <div className="overflow-hidden rounded-lg">
 
@@ -79,7 +79,7 @@ const Admissions = () => {
           </div>
 
           {/* Additional services */}
-          <div className="p-[60px] mt-[60px] bg-white rounded-xl shadow-[6px_6px_0px_2px_rgba(30,30,30,1.00)] border-2 border-neutral-800">
+          <div className="hidden lg:block p-[60px] mt-[60px] bg-white rounded-xl shadow-[6px_6px_0px_2px_rgba(30,30,30,1.00)] border-2 border-neutral-800">
 
             <div className="overflow-hidden rounded-lg">
 

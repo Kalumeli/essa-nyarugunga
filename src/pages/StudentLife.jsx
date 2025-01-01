@@ -42,7 +42,7 @@ function StudentLife() {
             At Little Learners Academy, we believe in nurturing well-rounded individuals. Our extracurricular activities offer a diverse range of experiences that complement our academic curriculum and encourage students to explore their interests and passions. We offer a wide array of extracurricular activities, including
           </SectionHeader>
 
-          <div className="grid w-full grid-cols-3 gap-6 p-8 gap-y-[70px]">
+          <div className="grid w-full grid-rows-1 lg:grid-cols-3 gap-6 p-8 gap-y-[70px]">
             <Card category="about" icon={Thunder} heading="Sports and Athletics" details="Students can participate in various sports, from soccer and basketball to gymnastics and yoga. Sports help promote teamwork, physical fitness, and a sense of discipline." />
             <Card category="about" icon={Paint} heading="Art and Creativity" details="Our art classes and creative workshops provide a platform for students to express their creativity through painting, drawing, and other artistic forms." />
             <Card category="about" icon={Music} heading="Music and Performing Arts" details="Students can discover their musical talents through singing, playing musical instruments, and participating in drama and theater performances." />
@@ -58,7 +58,7 @@ function StudentLife() {
             At Little Learners Academy, we celebrate every milestone and create cherished memories for our students. Throughout the year, we host a variety of events and celebrations that bring the entire school community together. Some of our memorable events include
           </SectionHeader>
 
-          <div className="grid w-full grid-cols-3 gap-6 p-8 gap-y-[70px]">
+          <div className="grid w-full grid-rows-1 lg:grid-cols-3 gap-6 p-8 gap-y-[70px]">
             <StudentLifeCard image={Test} title="Annual Sports Day" details="A day filled with friendly competition, team spirit, and sportsmanship." />
             <StudentLifeCard image={Test} title="Cultural Festivals" details="Celebrations of diverse cultural festivals, promoting cultural exchange and appreciation." />
             <StudentLifeCard image={Test} title="Art Exhibitions" details="Showcasing our students' artistic talents through exhibitions and displays." />
@@ -76,7 +76,7 @@ function StudentLife() {
             At Little Learners Academy, we are committed to providing a supportive and nurturing environment that meets the unique needs of each student. Our student support services include
           </SectionHeader>
 
-          <div className="grid w-full grid-cols-3 gap-6 p-8 gap-y-[70px]">
+          <div className="grid w-full grid-rows-1 lg:grid-cols-3 gap-6 p-8 gap-y-[70px]">
             <Card category="about" icon={Magic} heading="Counseling" details="Professional counselors offer guidance and support to students, addressing their emotional and social well-being." />
             <Card category="about" icon={Book} heading="Learning Support" details="Our educators provide additional assistance to students who may require extra support in their academic journey." />
             <Card category="about" icon={People} heading="Parent-Teacher Collaboration" details="We foster a strong partnership with parents to ensure seamless communication and mutual support in a child's development." />

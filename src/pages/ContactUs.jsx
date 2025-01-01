@@ -29,24 +29,24 @@ function ContactUs() {
             If you have specific questions or wish to request more information about Little Learners Academy, please complete the contact form below. Kindly provide the following details to help us better understand your needs
           </SectionHeader>
 
-          <div className="relative px-[100px] pt-[120px] pb-[100px] bg-white rounded-xl shadow-[8px_8px_0px_1px_rgba(30,30,30,1.00)] border-2 border-neutral-800">
+          <div className="relative px-[20px] lg:px-[100px] pt-[120px] pb-[100px] bg-white rounded-xl shadow-[8px_8px_0px_1px_rgba(30,30,30,1.00)] border-2 border-neutral-800">
 
             {/* SOCIAL BUTTONS */}
             <div className="absolute -top-12 right-0 left-0 mx-auto p-2 w-[50%] h-[100px] flex items-center justify-center gap-[20px]">
               <Link to="#" target="_blank" className="h-13 px-6 py-4 bg-[#ffdecc] rounded-lg border-2 border-neutral-800 justify-start items-start gap-2.5 inline-flex transition-all hover:shadow-[6px_6px_0px_2px_rgba(30,30,30,1.00)] active:shadow-[0px_0px_2px_0px_rgba(30,30,30,1.00)]">
-                <img src={Facebook} alt="Facebook" />
+                <img src={Facebook} className="object-cover" alt="Facebook" />
               </Link>
               <Link to="#" target="_blank" className="h-13 px-6 py-4 bg-[#ffdecc] rounded-lg border-2 border-neutral-800 justify-start items-start gap-2.5 inline-flex transition-all hover:shadow-[6px_6px_0px_2px_rgba(30,30,30,1.00)] active:shadow-[0px_0px_2px_0px_rgba(30,30,30,1.00)]">
-                <img src={Twitter} alt="Facebook" />
+                <img src={Twitter} className="object-cover" alt="Facebook" />
               </Link>
               <Link to="#" target="_blank" className="h-13 px-6 py-4 bg-[#ffdecc] rounded-lg border-2 border-neutral-800 justify-start items-start gap-2.5 inline-flex transition-all hover:shadow-[6px_6px_0px_2px_rgba(30,30,30,1.00)] active:shadow-[0px_0px_2px_0px_rgba(30,30,30,1.00)]">
-                <img src={LinkedIn} alt="Facebook" />
+                <img src={LinkedIn} className="object-cover" alt="Facebook" />
               </Link>
 
             </div>
 
             <form onSubmit={(e) => e.preventDefault()}>
-              <div className="grid grid-cols-2 gap-[50px]">
+              <div className="grid grid-rows-1 lg:grid-cols-2 gap-[50px]">
                 {/* Input field */}
                 <FormInput label="Parent Name" placeholder="Enter Parent Name" name="ParentName" type="text" />
                 <FormInput label="Email Address" placeholder="Enter Email address" name="emailAddress" type="email" />
