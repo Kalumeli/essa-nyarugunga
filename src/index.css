@@ -7,9 +7,13 @@
   src: url(/assets/fonts/Raleway.ttf);
 }
 
+html {
+  scroll-behavior: smooth;
+}
+
 body {
   font-family: bodyFont;
-  @apply font-medium bg-primary-97;
+  @apply font-medium bg-primary-97 overflow-x-hidden;
 }
 
 .active:not(#logo) {
@@ -18,19 +22,6 @@ body {
 }
 .active div {
   @apply font-semibold;
-}
-
-/* TODO: make infinite scrolling */
-@keyframes marquee {
-  from {
-    transform: translateX(0);
-  }
-  to {
-    transform: translateX(-100%);
-  }
-}
-.animate-slide {
-  /* animation: marquee 20s linear infinite; */
 }
 
 .footer-link {

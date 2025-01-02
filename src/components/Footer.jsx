@@ -56,9 +56,9 @@ export default function Footer() {
           <div className="flex flex-col gap-[12px]">
             <h3 className="text-xl font-bold text-neutral-800">Home</h3>
             <ul className="flex flex-col gap-[10px]">
-              <li><Link to="/#" className="footer-link text-[#333333] text-md font-medium leading-[30px]">Features</Link></li>
-              <li><Link to="/#" className="footer-link text-[#333333] text-md font-medium leading-[30px]">Our Testimonials</Link></li>
-              <li><Link to="/#" className="footer-link text-[#333333] text-md font-medium leading-[30px]">FAQ</Link></li>
+              <li><a href="/#features" className="footer-link text-[#333333] text-md font-medium leading-[30px]">Features</a></li>
+              <li><a href="/#testimonials" className="footer-link text-[#333333] text-md font-medium leading-[30px]">Our Testimonials</a></li>
+              <li><a href="/#faq" className="footer-link text-[#333333] text-md font-medium leading-[30px]">FAQ</a></li>
             </ul>
           </div>
 
@@ -67,8 +67,8 @@ export default function Footer() {
           <div className="flex flex-col gap-[12px]">
             <h3 className="text-xl font-bold text-neutral-800">Academics</h3>
             <ul className="flex flex-col gap-[10px]">
-              <li><Link to="/academics#" className="footer-link text-[#333333] text-md font-medium leading-[30px]">Special Features</Link></li>
-              <li><Link to="/academics#" className="footer-link text-[#333333] text-md font-medium leading-[30px]">Gallery</Link></li>
+              <li><a href="/academics#special-features" className="footer-link text-[#333333] text-md font-medium leading-[30px]">Special Features</a></li>
+              <li><a href="/academics#gallery" className="footer-link text-[#333333] text-md font-medium leading-[30px]">Gallery</a></li>
             </ul>
           </div>
 
@@ -76,11 +76,11 @@ export default function Footer() {
           <div className="flex flex-col gap-[12px]">
             <h3 className="text-xl font-bold text-neutral-800">About</h3>
             <ul className="flex flex-col gap-[10px]">
-              <li><Link to="/about#" className="footer-link text-[#333333] text-md font-medium leading-[30px]">Our Mission</Link></li>
-              <li><Link to="/about#" className="footer-link text-[#333333] text-md font-medium leading-[30px]">Our Vision</Link></li>
-              <li><Link to="/about#" className="footer-link text-[#333333] text-md font-medium leading-[30px]">Awards and Recognition</Link></li>
-              <li><Link to="/about#" className="footer-link text-[#333333] text-md font-medium leading-[30px]">History</Link></li>
-              <li><Link to="/about#" className="footer-link text-[#333333] text-md font-medium leading-[30px]">Teachers</Link></li>
+              <li><a href="/about#mission-vision" className="footer-link text-[#333333] text-md font-medium leading-[30px]">Our Mission</a></li>
+              <li><a href="/about#mission-vision" className="footer-link text-[#333333] text-md font-medium leading-[30px]">Our Vision</a></li>
+              <li><a href="/about#awards" className="footer-link text-[#333333] text-md font-medium leading-[30px]">Awards and Recognition</a></li>
+              {/* <li><a href="/about#history" className="footer-link text-[#333333] text-md font-medium leading-[30px]">History</a></li> */}
+              <li><a href="/about#teachers" className="footer-link text-[#333333] text-md font-medium leading-[30px]">Teachers</a></li>
             </ul>
           </div>
 
@@ -88,8 +88,8 @@ export default function Footer() {
           <div className="flex flex-col gap-[12px]">
             <h3 className="text-xl font-bold text-neutral-800">Contact Us</h3>
             <ul className="flex flex-col gap-[10px]">
-              <li><Link to="/contact#" className="footer-link text-[#333333] text-md font-medium leading-[30px]">Information</Link></li>
-              <li><Link to="/contact#" className="footer-link text-[#333333] text-md font-medium leading-[30px]">Map & Direction</Link></li>
+              <li><a href="/contact#information" className="footer-link text-[#333333] text-md font-medium leading-[30px]">Information</a></li>
+              <li><a href="/contact#direction" className="footer-link text-[#333333] text-md font-medium leading-[30px]">Map & Direction</a></li>
             </ul>
           </div>
 

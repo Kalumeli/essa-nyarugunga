@@ -1,7 +1,7 @@
 import { useState, useEffect } from "react";
 
 const usePageLoad = () => {
-  const [loading, setLoading] = useState(true);
+  const [loading, setLoading] = useState(false);
 
   useEffect(() => {
     const handleLoad = () => {
