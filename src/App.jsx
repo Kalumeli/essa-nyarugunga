@@ -1,16 +1,17 @@
+import React, { useState, useEffect, lazy } from "react"
 import { BrowserRouter, Routes, Route, useLocation } from "react-router-dom"
-import { useState, useEffect } from "react"
 import Loading from "./components/Loading"
 import usePageLoad from "./hooks/usePageLoad"
 
-// pages
-import Home from "./pages/Home"
-import About from "./pages/About"
-import Academic from "./pages/Academic"
-import Admissions from "./pages/Admissions"
-import ContactUs from "./pages/ContactUs"
-import StudentLife from "./pages/StudentLife"
-import ErrorPage from "./pages/ErrorPage"
+// pages (lazy loaded)
+const Home = lazy(()=> import("./pages/Home"));
+const About = lazy(()=> import("./pages/About"));
+const Academic = lazy(()=> import("./pages/Academic"));
+const Admissions = lazy(()=> import("./pages/Admissions"));
+const ContactUs = lazy(()=> import("./pages/ContactUs"));
+const StudentLife = lazy(()=> import("./pages/StudentLife"));
+const ErrorPage = lazy(()=> import("./pages/ErrorPage"));
+
 
 const RouteWrapper = ({ children }) => {
   const [initialLoading, setInitialLoading] = useState(true);

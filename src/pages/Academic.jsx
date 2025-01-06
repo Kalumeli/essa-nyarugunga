@@ -18,7 +18,7 @@ import Sun from "/assets/icons/sun.svg";
 import Star from "/assets/icons/star.svg";
 
 // Images
-import Test from '/assets/hero.jpg'
+import Test from '/assets/hero.webp'
 
 // gallery blocks
 import Classrooms from "../components/Carousel/Classrooms"

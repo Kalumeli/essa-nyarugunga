@@ -24,7 +24,7 @@ import Book from "/assets/icons/book.svg";
 import People from "/assets/icons/people-2.svg";
 
 // sample image
-import Test from '/assets/hero.jpg'
+import Test from '/assets/hero.webp'
 
 
 function StudentLife() {

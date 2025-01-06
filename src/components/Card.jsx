@@ -7,7 +7,7 @@ const Card = ({ icon, heading, details, category }) => {
     <div className={`relative ${category == "about" ? null : "h-[280px]"} px-[30px] pt-14 pb-[50px] bg-white rounded-xl shadow-[6px_6px_0px_2px_rgba(30,30,30,1.00)] border-2 border-neutral-800 flex-col justify-start items-start gap-5 inline-flex`}>
       {/* icon✅ */}
       <div className='absolute h-[74px] p-5 bg-[#ffdecc] rounded-xl border-2 border-neutral-800 justify-start items-start gap-2.5 inline-flex -top-10'>
-        <img src={icon} />
+        <img src={icon} alt='icon' />
       </div>
 
       <div className="self-stretch text-[#191919] text-[28px] font-bold leading-9">{heading}</div>

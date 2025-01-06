@@ -1,6 +1,6 @@
 import CarouselContainer from "./CarouselContainer";
 import CarouselItem from "./CarouselItem";
-import Test from '/assets/hero.jpg'
+import Test from '/assets/hero.webp'
 
 export default function Playgrounds() {
     return (

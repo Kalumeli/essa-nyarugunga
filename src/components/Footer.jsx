@@ -27,21 +27,21 @@ export default function Footer() {
           <div className="flex flex-col gap-[14px]">
             <div className="flex items-center gap-2">
               <span className="h-10 p-2 bg-[#fff5ef] rounded-md border-2 border-neutral-800 justify-start items-start gap-2.5 inline-flex">
-                <img src={Email} />
+                <img alt="icon" src={Email} />
               </span>
               <p>Hellow@gmail.com</p>
             </div>
 
             <div className="flex items-center gap-2">
               <span className="h-10 p-2 bg-[#fff5ef] rounded-md border-2 border-neutral-800 justify-start items-start gap-2.5 inline-flex">
-                <img src={Phone} />
+                <img alt="icon" src={Phone} />
               </span>
               <p>+250 796 140 857</p>
             </div>
 
             <div className="flex items-center gap-2">
               <span className="h-10 p-2 bg-[#fff5ef] rounded-md border-2 border-neutral-800 justify-start items-start gap-2.5 inline-flex">
-                <img src={Location} />
+                <img alt="icon" src={Location} />
               </span>
               <p>Kigali, Kanombe</p>
             </div>

@@ -1,4 +1,4 @@
-import HeroImg from "/assets/hero.jpg"
+import HeroImg from "/assets/hero.webp"
 import { motion } from "framer-motion";
 import {
   slideFromLeft,

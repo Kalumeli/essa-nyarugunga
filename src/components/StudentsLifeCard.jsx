@@ -1,5 +1,5 @@
 import React from 'react'
-// import Test from '/assets/hero.jpg'
+// import Test from '/assets/hero.webp'
 
 const StudentLifeCard = ({ image, title, details }) => {
   return (
