@@ -1,15 +1,12 @@
-import React, { lazy, Suspense } from "react";
-
-// Lazy-loaded components
-const Banner = lazy(() => import("../components/Banner"));
-const Container = lazy(() => import("../components/Container"));
-const HeroSection = lazy(() => import("../components/HeroSection"));
-const NavigationBar = lazy(() => import("../components/NavigationBar"));
-const SectionHeader = lazy(() => import("../components/SectionHeader"));
-const Card = lazy(() => import("../components/Card"));
-const Testimonial = lazy(() => import("../components/Testimonial"));
-const Footer = lazy(() => import("../components/Footer"));
-const NavigationCard = lazy(() => import("../components/NavigationCard"));
+import Banner from "../components/Banner"
+import Container from "../components/Container"
+import HeroSection from "../components/HeroSection"
+import NavigationBar from "../components/NavigationBar"
+import SectionHeader from "../components/SectionHeader"
+import Card from "../components/Card"
+import Testimonial from "../components/Testimonial"
+import Footer from "../components/Footer"
+import NavigationCard from "../components/NavigationCard"
 
 // card icons
 import Graduate from "/assets/icons/graduate.svg"
@@ -49,11 +46,8 @@ function Home() {
     }
   };
 
-  const LoadingNow = () => <div>Loading...</div>;
-
-
   return (
-    <Suspense fallback={<LoadingNow />}>
+    <>
       <Banner />
       <NavigationBar />
 
@@ -201,7 +195,7 @@ function Home() {
 
       </Container>
 
-    </Suspense>
+    </>
   )
 }
 
