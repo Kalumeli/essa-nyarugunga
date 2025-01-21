@@ -91,7 +91,7 @@ function About() {
                 key={index}
                 variants={scaleIn}
               >
-                <Card category="about" icon={icon} heading="Outstanding Early Childhood Education Awar" details="Presented by the National Association for the Education of Young Children (NAEYC) in recognition of Little Learners Academy's commitment to delivering exceptional early childhood education and fostering a nurturing learning environment." />
+                <Card category="aboutpage" icon={icon} heading="Outstanding Early Childhood Education Awar" details="Presented by the National Association for the Education of Young Children (NAEYC) in recognition of Little Learners Academy's commitment to delivering exceptional early childhood education and fostering a nurturing learning environment." />
               </motion.div>
             ))}
           </motion.div>

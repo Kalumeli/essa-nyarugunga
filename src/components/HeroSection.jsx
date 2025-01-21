@@ -65,25 +65,26 @@ export default function HeroSection() {
           <div className="flex flex-col w-full sm:flex-row bg-[#ffeee5] justify-between border-2 border-neutral-800 gap-[15px] shadow-[8px_8px_0px_1px_rgba(255,190,153,1.00)] rounded-xl  px-[50px] py-6">
             {/* Analytics items */}
             <motion.div
-              whileHover={{ scale: 1.05 }}
-              className="flex flex-col items-center w-full py-3 border-b-2 border-black sm:border-b-0 sm:items-start">
-              <h1 className="text-neutral-800 text-[44px] font-extrabold leading-[66px]">100k</h1>
+              whileHover={{ scale: 1.02 }}
+              className="flex flex-col items-center w-full py-3 border-b-2 border-black cursor-default sm:border-b-0 sm:items-start">
+              <h1 className="text-neutral-800 text-[44px] font-extrabold leading-[66px]">6.9K</h1>
               <span className="text-neutral-800 text-lg font-medium leading-[27px]">Students passed</span>
             </motion.div>
 
             <motion.div
-              whileHover={{ scale: 1.05 }}
-              className="flex flex-col items-center w-full py-3 border-b-2 border-black sm:border-b-0 sm:items-start">
-              <h1 className="text-neutral-800 text-[44px] font-extrabold leading-[66px]">37</h1>
-              <span className="text-neutral-800 text-lg font-medium leading-[27px]">Awards & Recognitions</span>
+              whileHover={{ scale: 1.02 }}
+              className="flex flex-col items-center w-full py-3 cursor-default sm:items-start">
+              <h1 className="text-neutral-800 text-[44px] font-extrabold leading-[66px]">1015</h1>
+              <span className="text-neutral-800 text-lg font-medium leading-[27px]">Students</span>
             </motion.div>
 
             <motion.div
-              whileHover={{ scale: 1.05 }}
-              className="flex flex-col items-center w-full py-3 sm:items-start">
-              <h1 className="text-neutral-800 text-[44px] font-extrabold leading-[66px]">15</h1>
-              <span className="text-neutral-800 text-lg font-medium leading-[27px]">Experienced Educators</span>
+              whileHover={{ scale: 1.02 }}
+              className="flex flex-col items-center w-full py-3 border-b-2 border-black cursor-default sm:border-b-0 sm:items-start">
+              <h1 className="text-neutral-800 text-[44px] font-extrabold leading-[66px]">4</h1>
+              <span className="text-neutral-800 text-lg font-medium leading-[27px]">Trades</span>
             </motion.div>
+
           </div>
         </div>
 

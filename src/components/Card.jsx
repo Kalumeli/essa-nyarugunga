@@ -4,7 +4,7 @@ import React from 'react'
 const Card = ({ icon, heading, details, category }) => {
   return (
     // <div className='w-[400px] h-[300px] bg-red-200'>
-    <div className={`relative ${category == "about" ? null : "h-[280px]"} px-[30px] pt-14 pb-[50px] bg-white rounded-xl shadow-[6px_6px_0px_2px_rgba(30,30,30,1.00)] border-2 border-neutral-800 flex-col justify-start items-start gap-5 inline-flex`}>
+    <div className={`relative ${category == "about" ? "h-[270px]" : category == "aboutpage" ? "h-[400px]" : "h-[300px]"} px-[30px] pt-14 pb-[50px] bg-white rounded-xl shadow-[6px_6px_0px_2px_rgba(30,30,30,1.00)] border-2 border-neutral-800 flex-col justify-start items-start gap-5 inline-flex`}>
       {/* icon✅ */}
       <div className='absolute h-[74px] p-5 bg-[#ffdecc] rounded-xl border-2 border-neutral-800 justify-start items-start gap-2.5 inline-flex -top-10'>
         <img src={icon} alt='icon' />
