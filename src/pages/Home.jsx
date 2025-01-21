@@ -153,8 +153,8 @@ function Home() {
             {Array(4).fill(null).map((_, index) => (
               <motion.div key={index} variants={cardVariants}>
                 <QuestionAnswer
-                  title="What are the school hours at Little Learners Academy?"
-                  paragraph="Our school hours are from 8:00 AM to 3:00 PM, Monday to Friday. We also offer extended care options for parents who need early drop-off or late pick-up."
+                  title="What are the school hours at ESSA Nyarugugna?"
+                  paragraph="Our school hours are from 8:00 AM to 4:30 PM, Monday to Friday. We also offer extended care options for parents who need early drop-off or late pick-up."
                 />
               </motion.div>
             ))}

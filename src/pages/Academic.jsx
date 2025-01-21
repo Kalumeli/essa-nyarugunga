@@ -28,6 +28,7 @@ import Playgrounds from "../components/Carousel/Playgrounds"
 
 import { motion } from "framer-motion";
 import { staggerContainer, fadeIn, slideFromLeft, slideFromRight } from "../components/animations/Animate";
+import SingleImage from "../components/SingleImage"
 
 function Academic() {
   return (
@@ -68,7 +69,7 @@ function Academic() {
                 variants={index % 2 === 0 ? slideFromLeft : slideFromRight}
                 whileHover={{ scale: 1.05 }}
               >
-                <Card category="about" icon={icon} heading="Thematic Learning" details="Our curriculum is centered around engaging themes that capture children's imaginations. Each theme integrates multiple subjects, making learning enjoyable and relevant." />
+                <Card category="" icon={icon} heading="Thematic Learning" details="Our curriculum is centered around engaging themes that capture children's imaginations. Each theme integrates multiple subjects, making learning enjoyable and relevant." />
               </motion.div>
             ))}
           </motion.div>
@@ -87,17 +88,32 @@ function Academic() {
 
           <motion.div
             variants={staggerContainer}
-            className="grid w-full grid-rows-1 lg:grid-cols-3 gap-6 p-8 gap-y-[70px]"
+            className="grid w-full justify-center items-center grid-rows-1 lg:grid-cols-3 gap-6 p-8 gap-y-[70px]"
           >
-            {Array(6).fill(null).map((_, index) => (
-              <motion.div
-                key={index}
-                variants={fadeIn}
-                whileHover={{ scale: 1.05 }}
-              >
-                <AcademicCard image={Test} title="Software Development" details="Reading, writing, storytelling, and communication in codes." />
+              <motion.div variants={fadeIn} whileHover={{ scale: 1.02 }}>
+                <AcademicCard image="/assets/hero.webp" title="Software Development" details="Reading, writing, storytelling, and communication in codes." />
               </motion.div>
-            ))}
+              
+              <motion.div variants={fadeIn} whileHover={{ scale: 1.02 }}>
+                <AcademicCard image="/assets/hero.webp" title="Computer system architecture" details="Reading, writing, storytelling, and communication in codes." />
+              </motion.div>
+
+              <motion.div variants={fadeIn} whileHover={{ scale: 1.02 }}>
+                <AcademicCard image="/assets/hero.webp" title="Accounting" details="Reading, writing, storytelling, and communication in codes." />
+              </motion.div>
+
+              <motion.div variants={fadeIn} whileHover={{ scale: 1.02 }}>
+                <AcademicCard image="/assets/hero.webp" title="Tourism and hospitality" details="Reading, writing, storytelling, and communication in codes." />
+              </motion.div>
+
+              <motion.div variants={fadeIn} whileHover={{ scale: 1.02 }}>
+                <AcademicCard image="/assets/hero.webp" title="Food and beverage operations" details="Reading, writing, storytelling, and communication in codes." />
+              </motion.div>
+
+              <motion.div variants={fadeIn} whileHover={{ scale: 1.02 }}>
+                <AcademicCard image="/assets/hero.webp" title="Ordinary Level" details="Reading, writing, storytelling, and communication in codes." />
+              </motion.div>
+
           </motion.div>
         </motion.section>
 
@@ -110,15 +126,21 @@ function Academic() {
           whileInView="visible"
           viewport={{ once: true, amount: 0 }}
         >
-          <SectionHeader semiHeading="Our Gallery" Heading="Our Rooms Gallery">
-            Step into our Gallery and immerse yourself in a visual journey of cherished moments and unforgettable experiences at our kindergarten school.
+          <SectionHeader semiHeading="Our Gallery" Heading="Our School Gallery">
+            Step into our Gallery and immerse yourself in a visual journey of cherished moments and unforgettable experiences at our high school.
           </SectionHeader>
 
           {/* school images categorized✅ */}
-          <Classrooms />
-          <Library />
-          <Computerlab />
-          <Playgrounds />
+          <div className="grid grid-cols-4 gap-y-5">
+            <SingleImage img="/assets/hero.webp" alt="School compound" />
+            <SingleImage img="/assets/hero.webp" alt="School compound" />
+            <SingleImage img="/assets/hero.webp" alt="School compound" />
+            <SingleImage img="/assets/hero.webp" alt="School compound" />
+            <SingleImage img="/assets/hero.webp" alt="School compound" />
+            <SingleImage img="/assets/hero.webp" alt="School compound" />
+            <SingleImage img="/assets/hero.webp" alt="School compound" />
+            <SingleImage img="/assets/hero.webp" alt="School compound" />
+          </div>
 
         </motion.section>
 
