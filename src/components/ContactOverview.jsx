@@ -53,14 +53,14 @@ export default function ContactOverview({ title, heading, details }) {
               <span className="h-10 p-2 bg-[#fff5ef] rounded-md border-2 border-neutral-800 justify-start items-start gap-2.5 inline-flex">
                 <img src={Email} />
               </span>
-              <p>Hellow@gmail.com</p>
+              <p>essanyarugunga@yahoo.fr</p>
             </div>
 
             <div className="flex items-center gap-2 px-4 py-3 bg-[#fffbf9] rounded-xl border-2 border-neutral-800">
               <span className="h-10 p-2 bg-[#fff5ef] rounded-md border-2 border-neutral-800 justify-start items-start gap-2.5 inline-flex">
                 <img src={Phone} />
               </span>
-              <p>+250 796 140 857</p>
+              <p>+250 788 891 751</p>
             </div>
 
             <div className="flex items-center gap-2 px-4 py-3 bg-[#fffbf9] rounded-xl border-2 border-neutral-800">
