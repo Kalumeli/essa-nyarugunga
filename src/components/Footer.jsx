@@ -29,14 +29,14 @@ export default function Footer() {
               <span className="h-10 p-2 bg-[#fff5ef] rounded-md border-2 border-neutral-800 justify-start items-start gap-2.5 inline-flex">
                 <img alt="icon" src={Email} />
               </span>
-              <p>Hellow@gmail.com</p>
+              <p>essanyarugunga@yahoo.fr</p>
             </div>
 
             <div className="flex items-center gap-2">
               <span className="h-10 p-2 bg-[#fff5ef] rounded-md border-2 border-neutral-800 justify-start items-start gap-2.5 inline-flex">
                 <img alt="icon" src={Phone} />
               </span>
-              <p>+250 796 140 857</p>
+              <p>+250 788 891 751</p>
             </div>
 
             <div className="flex items-center gap-2">
