@@ -9,6 +9,7 @@ const About = lazy(()=> import("./pages/About"));
 const Academic = lazy(()=> import("./pages/Academic"));
 const Admissions = lazy(()=> import("./pages/Admissions"));
 const ContactUs = lazy(()=> import("./pages/ContactUs"));
+const Verify = lazy(()=> import("./pages/Verify"));
 const StudentLife = lazy(()=> import("./pages/StudentLife"));
 const ErrorPage = lazy(()=> import("./pages/ErrorPage"));
 
@@ -39,6 +40,7 @@ const App = () => {
         <Route path="/admissions" element={<RouteWrapper><Admissions /></RouteWrapper>} />
         <Route path="/contact" element={<RouteWrapper><ContactUs /></RouteWrapper>} />
         <Route path="/students" element={<RouteWrapper><StudentLife /></RouteWrapper>} />
+        <Route path="/verify" element={<RouteWrapper><Verify /></RouteWrapper>} />
         <Route path="*" element={<RouteWrapper><ErrorPage /></RouteWrapper>} />
       </Routes>
     </BrowserRouter>

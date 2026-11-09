@@ -11,8 +11,8 @@ import LinkedIn from "/assets/icons/linkedin.svg"
 
 export default function Footer() {
   return (
-    <footer className="mt-[200px] w-full px-[50px] py-[40px] mb-10 bg-white rounded-xl shadow-[6px_6px_0px_2px_rgba(30,30,30,1.00)] border-2 border-neutral-800 flex-col justify-start items-start gap-[50px] flex overflow-hidden">
-      <div className="flex flex-col w-full gap-10 text-center lg:text-start lg:flex-row">
+    <footer className="mt-[180px] w-full px-[50px] py-[40px] mb-10 bg-white rounded-xl shadow-[6px_6px_0px_2px_rgba(30,30,30,1.00)] border-2 border-neutral-800 flex-col justify-start items-start gap-[50px] flex overflow-hidden">
+      <div className="flex flex-col gap-10 w-full text-center lg:text-start lg:flex-row">
 
         {/* LEFT SIDE✅ */}
         <div className="flex flex-col gap-[50px] ">
@@ -25,21 +25,21 @@ export default function Footer() {
 
           {/* Social address */}
           <div className="flex flex-col gap-[14px]">
-            <div className="flex items-center gap-2">
+            <div className="flex gap-2 items-center">
               <span className="h-10 p-2 bg-[#fff5ef] rounded-md border-2 border-neutral-800 justify-start items-start gap-2.5 inline-flex">
                 <img alt="icon" src={Email} />
               </span>
               <p>essanyarugunga@yahoo.fr</p>
             </div>
 
-            <div className="flex items-center gap-2">
+            <div className="flex gap-2 items-center">
               <span className="h-10 p-2 bg-[#fff5ef] rounded-md border-2 border-neutral-800 justify-start items-start gap-2.5 inline-flex">
                 <img alt="icon" src={Phone} />
               </span>
               <p>+250 788 891 751</p>
             </div>
 
-            <div className="flex items-center gap-2">
+            <div className="flex gap-2 items-center">
               <span className="h-10 p-2 bg-[#fff5ef] rounded-md border-2 border-neutral-800 justify-start items-start gap-2.5 inline-flex">
                 <img alt="icon" src={Location} />
               </span>
@@ -50,7 +50,7 @@ export default function Footer() {
         </div>
 
         {/* Easy Links */}
-        <div className="grid w-full grid-cols-2 lg:grid-cols-4 gap-y-5">
+        <div className="grid grid-cols-2 gap-y-5 w-full lg:grid-cols-4">
 
           {/* col 1 */}
           <div className="flex flex-col gap-[12px]">
@@ -103,7 +103,7 @@ export default function Footer() {
       <div className="w-full flex flex-col gap-[24px]">
         <hr className="h-[1px] w-full rounded-full border border-neutral-500" />
 
-        <div className="flex flex-col items-center justify-between gap-5 text-center lg:flex-row">
+        <div className="flex flex-col gap-5 justify-between items-center text-center lg:flex-row">
 
           {/* 💌💘💝💖💗💓 Huge thanks💌💘💝💖💗💓 */}
           <div>
@@ -114,7 +114,7 @@ export default function Footer() {
           {/* Social links✅ */}
 
           {/* valid links and online icons */}
-          <div className="flex flex-row items-center gap-3">
+          <div className="flex flex-row gap-3 items-center">
             <Link to="#" target="_blank" className="h-13 p-3 bg-[#ffdecc] rounded-lg border-2 border-neutral-800 justify-start items-start gap-2.5 inline-flex transition-all hover:shadow-[6px_6px_0px_2px_rgba(30,30,30,1.00)] active:shadow-[0px_0px_2px_0px_rgba(30,30,30,1.00)]">
               <img src={Facebook} alt="Facebook" />
             </Link>
